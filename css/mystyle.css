@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* overflow-x:hidden; */
+}
+.quote{
+    width:50%;
+}
+.quote-text{
+    font-family: 'Source Serif Pro', serif;
+    padding-left: 7rem;
+    font-size: 2.7rem;
+}
+#credits{
+    font-family: 'Source Serif Pro', serif;
+    float:right;
+}
+#intro-header{
+    height:420px;
+    
+    width: 100%; 
+    object-fit: cover;
+    background: black  center no-repeat;    
+}
+.dark-bg{
+    background-color: black;
+}
+
+#logo{
+    height:30px;
+}
+
+.main-bg{
+    background-color: #171717;
+}
+
+/*Introduction section */
+.card-border-none{
+    border: none;
+}
+
+#intro-info{
+    display: flex;
+}
+#intro-txt{
+    align-self: center;
+}
+
+#intro-img{
+    height: 200px;
+    width: 300px;
+    border-radius: 55%;
+}
+
+
+/*card */
+/* .card-content{
+    display: flex;
+} */
+
+.card-text{
+
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .quote{
+        display: none;
+    }
+    .details{
+        display: block;
+        padding-left:18%;
+    }
+    
+    .quote-text{
+        font-family: 'Source Serif Pro', serif;
+        padding-left: 7rem;
+        font-size: 1rem;
+    }
+  } 
+
+  #early-life-img{
+    /* height:500px; */
+    width: 100px;;
+    border-radius: 50%;
+    
+  }
+  
